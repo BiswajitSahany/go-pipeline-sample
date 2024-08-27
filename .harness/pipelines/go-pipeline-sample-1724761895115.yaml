@@ -74,3 +74,6 @@ pipeline:
               nodeSelector: {}
               os: Linux
         type: CI
+        description: ""
+        delegateSelectors:
+          - kubernetes-delegate-test
