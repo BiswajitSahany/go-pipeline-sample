@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_BiswajitSahany_go_pipeline_sample_1724761899239-push-trigger-input-set
+  identifier: Build_BiswajitSahany_go_pipeline_sample_1724761899239pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GH_SAmpleTest
+  pipeline:
+    identifier: Build_BiswajitSahany_go_pipeline_sample_1724761899239
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
