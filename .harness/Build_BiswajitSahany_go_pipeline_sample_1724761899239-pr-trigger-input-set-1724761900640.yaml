@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_BiswajitSahany_go_pipeline_sample_1724761899239-pr-trigger-input-set
+  identifier: Build_BiswajitSahany_go_pipeline_sample_1724761899239prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GH_SAmpleTest
+  pipeline:
+    identifier: Build_BiswajitSahany_go_pipeline_sample_1724761899239
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
